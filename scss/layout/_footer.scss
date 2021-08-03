@@ -1,0 +1,7 @@
+.footer {
+    @extend %flex;
+    background-image: linear-gradient(to left, #523566, #BA77E6);
+    font-family: 'Montserrat', sans-serif;
+    color: #C192F0;
+    font-weight: bold;
+}

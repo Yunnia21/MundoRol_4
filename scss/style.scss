@@ -1,0 +1,45 @@
+
+/*.barraNav {
+    background-color: #422852;
+    color: #C192F0;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+}
+
+
+
+
+
+*/
+@import "utilities/variables";
+@import "utilities/extends";
+@import "utilities/mixin";
+@import "utilities/animaciones";
+@import "layout/header";
+@import "layout/footer";
+
+
+.foto {
+    height: $ancho;
+    width: $alto;
+}
+
+
+.titulos {
+    color: #4B4052;
+    font-family: 'Montserrat', sans-serif;
+}
+.fondos {
+    background-color: #C192F0;
+    padding: 10vh;
+}
+.logo {
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 91px;
+    width: 101px;
+}
+.encabezado {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
